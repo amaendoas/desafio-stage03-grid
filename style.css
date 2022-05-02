@@ -243,11 +243,6 @@ footer a:hover {
     width: 22rem;
   }
 
-  section h2 {
-    animation: none;
-    opacity: 0;
-  }
-
   .page {
     width: 100%;
     padding: 0 3.2rem;
