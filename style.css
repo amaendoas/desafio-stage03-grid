@@ -149,7 +149,7 @@ main section {
 
 footer {
   opacity: 0;
-  margin: 5rem 0;
+  margin: 3rem 0;
   font-size: var(--fs-text);
 }
 
@@ -188,10 +188,11 @@ footer a:hover {
 @media (min-width: 1000px) {
   .desktop {
     display: flex;
+    height: 100vh;
   }
 
   header {
-    height: 100vh;
+    height: 100%;
     width: 37.7rem;
     justify-content: start;
   }
