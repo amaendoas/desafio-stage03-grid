@@ -185,13 +185,13 @@ footer a:hover {
   }
 }
 
-@media (min-width: 900px) {
+@media (min-width: 1000px) {
   .desktop {
     display: flex;
   }
 
   header {
-    width: 100%;
+    height: 100vh;
     width: 37.7rem;
     justify-content: start;
   }
@@ -262,7 +262,7 @@ footer a:hover {
   }
 }
 
-@media (min-width: 600px) and (max-width:900px) {
+@media (min-width: 600px) and (max-width:1000px) {
   
   .description p {
     font-size: var(--fs-text-lg);
